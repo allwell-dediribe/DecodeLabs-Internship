@@ -79,7 +79,7 @@ The dataset contained several data quality issues that were corrected before ana
 > Insert a screenshot of the original dataset here.
 
 ```md
-![Raw Dataset](Images/Data-Cleaning/raw_dataset.png)
+![Raw Dataset]((https://github.com/allwell-dediribe/DecodeLabs-Internship/blob/main/Messy%20Data.png))
 ```
 
 ---
