@@ -75,32 +75,25 @@ The dataset contained several data quality issues that were corrected before ana
 ---
 
 ## Raw Dataset
+Initial raw dataset before cleaning
 
 > ![Raw Dataset](Messy%20Data.png)
-
-```md
-![Raw Dataset](Messy%20Data.png)
-```
 
 ---
 
 ## Removing Duplicates
-
-> Insert a screenshot showing duplicate removal.
-
-```md
-![Duplicate Removal](Images/Data-Cleaning/duplicate_removal.png)
-```
+• Removed Duplicates 
+• Replaced Blanks 
+• Changed Data Types 
+• Additional Columns 
+• Filtering and Sorting 
+• Data Transformation
 
 ---
 
 ## Cleaned Dataset
 
-> Insert a screenshot of the cleaned dataset.
-
-```md
-![Cleaned Dataset](Images/Data-Cleaning/cleaned_dataset.png)
-```
+> ![Cleaned Dataset](Cleaned%20Data.png)
 
 ---
 
