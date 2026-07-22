@@ -76,7 +76,7 @@ The dataset contained several data quality issues that were corrected before ana
 
 ## Raw Dataset
 
-> Insert a screenshot of the original dataset here.
+> ![Raw Dataset](Messy%20Data.png)
 
 ```md
 ![Raw Dataset](Messy%20Data.png)
