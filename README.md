@@ -136,17 +136,11 @@ Exploratory Data Analysis was performed in Microsoft Excel to understand the dat
 
 ## Pivot Tables
 > ![Pivot Tables](Pivot%20Tables.png)
-```md
-![Pivot Tables](Images/EDA/pivot_tables.png)
-```
 
 ---
 
 ## Quartile Analysis
 > ![Quartile Analysis](Quartile%20Analysis.png)
-```md
-![Quartile Analysis](Images/EDA/quartile_analysis.png)
-```
 
 ---
 
@@ -222,13 +216,12 @@ GROUP BY Payment_Method;
 
 ## Example Query — HAVING
 
-```sql
+
 SELECT Product,
        SUM(Total_Revenue) AS Revenue
 FROM OnlineRetail
 GROUP BY Product
 HAVING SUM(Total_Revenue) > 2000;
-```
 
 ```md
 ![HAVING Clause](Images/SQL/having_clause.png)
@@ -282,7 +275,7 @@ HAVING SUM(Total_Revenue) > 2000;
 
 # Repository Structure
 
-
+'''
 Data-Analytics-Internship-Project
 │
 ├── Data
@@ -307,7 +300,7 @@ Data-Analytics-Internship-Project
 │   └── Final Internship Report.pdf
 │
 └── README.md
-
+'''
 ---
 
 # Skills Demonstrated
