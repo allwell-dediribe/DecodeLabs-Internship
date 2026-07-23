@@ -97,6 +97,13 @@ Initial raw dataset before cleaning
 
 ---
 
+## Challenges Faced
+Inconsistent Formatting
+Missing Values
+Duplicates
+
+---
+
 ## Outcome
 
 The dataset was successfully transformed into a clean and structured format suitable for analysis.
@@ -129,14 +136,6 @@ Exploratory Data Analysis was performed in Microsoft Excel to understand the dat
 - Filtering
 - Data Analysis ToolPak
 - Excel Functions
-
----
-
-## Descriptive Statistics
-
-```md
-![Descriptive Statistics](Images/EDA/descriptive_statistics.png)
-```
 
 ---
 
