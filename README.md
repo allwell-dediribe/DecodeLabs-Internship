@@ -32,23 +32,15 @@ The project demonstrates the complete data analysis workflow, including:
 
 # Project Workflow
 
-```
-Raw Dataset
-      │
-      ▼
-Data Cleaning (Excel)
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-SQL Analysis
-      │
-      ▼
-Business Insights
-```
+- Raw Dataset
 
----
+- Data Cleaning (Excel)
+
+- Exploratory Data Analysis
+
+- SQL Analysis
+      
+- Business Insights
 
 # 1. Data Cleaning and Preparation
 
@@ -185,47 +177,21 @@ Before analysis, the following preprocessing tasks were completed:
 
 ---
 
-## Example Query — Filtering Records
+## Filtering Records - WHERE CLAUSE
 
-```sql
-SELECT *
-FROM OnlineRetail
-WHERE Payment_Method = 'Credit Card';
-```
-
-```md
-![Filtering Records](Images/SQL/filtering_records.png)
-```
+> ![WHERE](Where.png)
 
 ---
 
-## Example Query — GROUP BY
+## Sorting Records — GROUP BY CLAUSE
 
-```sql
-SELECT Payment_Method,
-       SUM(Total_Revenue) AS Revenue
-FROM OnlineRetail
-GROUP BY Payment_Method;
-```
-
-```md
-![GROUP BY](Images/SQL/groupby.png)
-```
+> ![GROUP BY](Group%20By.png)
 
 ---
 
-## Example Query — HAVING
+## HAVING CLAUSE
 
-
-SELECT Product,
-       SUM(Total_Revenue) AS Revenue
-FROM OnlineRetail
-GROUP BY Product
-HAVING SUM(Total_Revenue) > 2000;
-
-```md
-![HAVING Clause](Images/SQL/having_clause.png)
-```
+> ![HAVING](Having.png)
 
 ---
 
