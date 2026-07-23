@@ -140,7 +140,7 @@ Exploratory Data Analysis was performed in Microsoft Excel to understand the dat
 ---
 
 ## Pivot Tables
-
+> ![Pivot Tables](Pivot%20Tables.png)
 ```md
 ![Pivot Tables](Images/EDA/pivot_tables.png)
 ```
@@ -148,7 +148,7 @@ Exploratory Data Analysis was performed in Microsoft Excel to understand the dat
 ---
 
 ## Quartile Analysis
-
+> ![Quartile Analysis](Quartile%20Analysis.png)
 ```md
 ![Quartile Analysis](Images/EDA/quartile_analysis.png)
 ```
