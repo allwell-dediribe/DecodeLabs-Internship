@@ -9,7 +9,6 @@ The project demonstrates the complete data analysis workflow, including:
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - SQL Data Analysis
-- Data Visualization in Microsoft Excel
 - Business Insights and Reporting
 
 ---
@@ -19,7 +18,6 @@ The project demonstrates the complete data analysis workflow, including:
 - Clean and prepare raw datasets for analysis.
 - Perform exploratory data analysis (EDA).
 - Use SQL to answer business questions.
-- Build interactive dashboards in Microsoft Excel.
 - Generate actionable business insights.
 
 ---
@@ -45,9 +43,6 @@ Exploratory Data Analysis
       │
       ▼
 SQL Analysis
-      │
-      ▼
-Excel Dashboard
       │
       ▼
 Business Insights
@@ -98,9 +93,9 @@ Initial raw dataset before cleaning
 ---
 
 ## Challenges Faced
-Inconsistent Formatting
-Missing Values
-Duplicates
+- Inconsistent Formatting
+- Missing Values
+- Duplicates
 
 ---
 
@@ -265,65 +260,6 @@ HAVING SUM(Total_Revenue) > 2000;
 
 ---
 
-# 4. Data Visualization (Microsoft Excel)
-
-## Description
-
-Interactive dashboards were created in Microsoft Excel to present key business insights and support decision-making.
-
----
-
-## Dashboard Features
-
-- KPI Summary
-- Revenue Analysis
-- Sales Trend
-- Product Performance
-- Payment Method Analysis
-- Referral Source Analysis
-
----
-
-## Dashboard Overview
-
-```md
-![Dashboard Overview](Images/Dashboard/dashboard_overview.png)
-```
-
----
-
-## KPI Dashboard
-
-```md
-![KPI Dashboard](Images/Dashboard/kpi_dashboard.png)
-```
-
----
-
-## Sales Trend
-
-```md
-![Sales Trend](Images/Dashboard/sales_trend.png)
-```
-
----
-
-## Product Performance
-
-```md
-![Product Performance](Images/Dashboard/product_performance.png)
-```
-
----
-
-## Payment Method Analysis
-
-```md
-![Payment Analysis](Images/Dashboard/payment_analysis.png)
-```
-
----
-
 # Challenges Encountered
 
 - Cleaning inconsistent data manually.
@@ -346,7 +282,7 @@ Interactive dashboards were created in Microsoft Excel to present key business i
 
 # Repository Structure
 
-```text
+
 Data-Analytics-Internship-Project
 │
 ├── Data
@@ -356,7 +292,7 @@ Data-Analytics-Internship-Project
 ├── Excel
 │   ├── Data Cleaning.xlsx
 │   ├── Exploratory Data Analysis.xlsx
-│   └── Dashboard.xlsx
+│
 │
 ├── SQL
 │   ├── SQL Queries.sql
@@ -365,14 +301,12 @@ Data-Analytics-Internship-Project
 ├── Images
 │   ├── Data-Cleaning
 │   ├── EDA
-│   ├── SQL
-│   └── Dashboard
+│   
 │
 ├── Reports
 │   └── Final Internship Report.pdf
 │
 └── README.md
-```
 
 ---
 
@@ -392,5 +326,4 @@ Data-Analytics-Internship-Project
 ---
 
 # Conclusion
-
-This internship project demonstrates the complete data analysis process—from cleaning raw data and performing exploratory analysis to querying data with SQL and presenting insights through Microsoft Excel dashboards. The project strengthened practical skills in data preparation, analysis, visualization, and business reporting while reinforcing the importance of data-driven decision-making.
+This internship project demonstrates the complete data analysis process—from cleaning raw data and performing exploratory analysis to querying data with SQL and presenting insights. The project strengthened practical skills in data preparation, analysis, visualization, and business reporting while reinforcing the importance of data-driven decision-making.
